@@ -20,6 +20,11 @@ Embora o site ainda não seja completamente responsivo, ele já está funcional 
 - Animações de flutuação nas imagens para uma experiência visual mais dinâmica.
 - Carrosséis de imagens utilizando Swiper.
 
+## Acesse o site
+
+```bash
+https://hospitalmaxnay.vercel.app
+
 Clone o repositório:
 
 ```bash
