@@ -40,7 +40,7 @@ function Header() {
               <a href="#">Agende</a>
             </button>
             <button className="contato">
-              <a href="https://wa.me/5551997409304">Contato</a>
+              <a href="#">Contato</a>
             </button>
           </div>
         </nav>

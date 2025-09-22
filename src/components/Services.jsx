@@ -13,7 +13,7 @@ function Services() {
           <li>Atendimento domiciliar</li>
           <li>Banho e tosa</li>
         </ul>
-        <a className="agenda" href="https://wa.me/5551997409304">
+        <a className="agenda" href="#">
           Faça seu Agendamento
         </a>
         <h2 className="experience">Experiência única para seu pet</h2>

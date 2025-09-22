@@ -19,20 +19,20 @@ function Main() {
           profissional e amor pelos bichinhos.
         </p>
         <button className="contact">
-          <a href="https://wa.me/5551997409304">Contato</a>
+          <a href="#">Contato</a>
         </button>
         <p className="url">www.maxnay.com.br</p>
         <img className="dog" src="/dog-container1.png" alt="dog" />
         <p className="linha">____________</p>
         <img className="patas" src="/patas.png" alt="" />
         <img src="/inferior.png  " alt="" className="inferior" />
-        <a href="https://wa.me/5551997409304">
+        <a href="#">
           <i class="icon-wpp fa-brands fa-whatsapp"></i>
         </a>
-        <a href="https://www.instagram.com/_nayaragrd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+        <a href="#">
           <i class="icon-insta fa-brands fa-instagram"></i>
         </a>
-        <a href="mailto:rodriguesgirardinayara@gmail.com">
+        <a href="#">
           <i class="icon-email fa-regular fa-envelope"></i>
         </a>
       </div>
