@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Services from "./components/Services";
-import Hospital from "./components/hospital";
+import Hospital from "./components/Hospital";
 import Planos from "./components/Planos";
 import Footer from "./components/Footer";
 import "./index.css";
