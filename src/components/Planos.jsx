@@ -126,8 +126,8 @@ function Planos() {
           <button onClick={() => swiperRef.current?.slideNext()}>▶</button>
         </div>
       </div>
-      <img src="img/patas.png" alt="" className="patas-fundo" />
-      <img src="img/element.png" alt="" className="element" />
+      <img src="/patas.png" alt="" className="patas-fundo" />
+      <img src="/element.png" alt="" className="element" />
     </div>
   );
 }
