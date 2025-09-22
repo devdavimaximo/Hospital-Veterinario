@@ -22,10 +22,10 @@ function Main() {
           <a href="https://wa.me/5551997409304">Contato</a>
         </button>
         <p className="url">www.maxnay.com.br</p>
-        <img className="dog" src="img/dog-container1.png" alt="dog" />
+        <img className="dog" src="/dog-container1.png" alt="dog" />
         <p className="linha">____________</p>
-        <img className="patas" src="img/patas.png" alt="" />
-        <img src="img/inferior.png  " alt="" className="inferior" />
+        <img className="patas" src="/patas.png" alt="" />
+        <img src="/inferior.png  " alt="" className="inferior" />
         <a href="https://wa.me/5551997409304">
           <i class="icon-wpp fa-brands fa-whatsapp"></i>
         </a>
