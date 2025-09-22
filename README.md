@@ -1,12 +1,31 @@
-# React + Vite
+# Hospital Veterinário Maxnay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do **Hospital Veterinário Maxnay**! Este projeto é um site criado para um hospital veterinário fictício, desenvolvido utilizando **React.js**, **CSS** e a biblioteca **Swiper** para implementar sliders e carrosséis interativos.
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O site foi projetado com o objetivo de fornecer informações sobre os serviços do hospital veterinário, além de oferecer uma navegação interativa e intuitiva. O projeto está totalmente funcional e conta com mini interações, como animações de hover nos botões e efeitos de flutuação nas imagens, criando uma experiência mais dinâmica para o usuário.
 
-## Expanding the ESLint configuration
+Embora o site ainda não seja completamente responsivo, ele já está funcional e pode ser visualizado em desktop.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias Utilizadas
+
+- **React.js** - Framework JavaScript para construção da interface de usuário.
+- **CSS** - Estilização da página, criando um design limpo e moderno.
+- **Swiper** - Biblioteca para criar carrosséis de imagens e outros componentes interativos.
+
+## Funcionalidades
+
+- Navegação interativa com efeitos de hover nos botões.
+- Animações de flutuação nas imagens para uma experiência visual mais dinâmica.
+- Carrosséis de imagens utilizando Swiper.
+
+## Acesse o site
+
+```bash
+https://hospitalmaxnay.vercel.app
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/devdavimaximo/Hospital-Veterinario.git
