@@ -64,11 +64,11 @@ button:hover {
   transition: 0.7s;
 }
 
-  .ul {
-    margin-left: 80px;
-    gap: 10px;
-    font-size: 18px;
-  }
+.ul {
+  margin-left: 80px;
+  gap: 10px;
+  font-size: 18px;
+}
 
 .li-header {
   margin-left: 35px;
@@ -341,7 +341,6 @@ i:hover {
   color: #083344;
 }
 
-
 .inferior-2 {
   position: absolute;
   top: 1637px;
@@ -412,7 +411,10 @@ i:hover {
   transform: translateX(-50%);
 }
 
-.plan-1, .plan-2, .plan-3, .plan-4 {
+.plan-1,
+.plan-2,
+.plan-3,
+.plan-4 {
   position: relative;
   background-color: #083344;
   color: #f5f5f5;
@@ -423,7 +425,10 @@ i:hover {
   width: 270px;
 }
 
-.basic, .essencial, .premium, .vip {
+.basic,
+.essencial,
+.premium,
+.vip {
   position: absolute;
   top: 40px;
   font-size: 29px;
@@ -441,7 +446,7 @@ i:hover {
   border: none;
   border: 1px solid #083344;
   font-size: 19px;
-  top: 300px; 
+  top: 300px;
   padding: 10px 25px;
   white-space: nowrap;
   border-radius: 10px;
@@ -465,10 +470,12 @@ i:hover {
   white-space: nowrap;
 }
 
-.ul-1, .ul-2, .ul-3, .ul-4 {
+.ul-1,
+.ul-2,
+.ul-3,
+.ul-4 {
   position: absolute;
   font-size: 13px;
-
 }
 
 .plan {
@@ -620,4 +627,230 @@ i:hover {
   left: 145px;
   color: #f5f5f5;
   font-size: 17px;
+}
+
+/*Responsividade*/
+
+/* telas maiores */
+@media (min-width: 1367px) {
+  /*nav*/
+  .ul {
+    margin-left: 139px;
+    margin-right: 30px;
+  }
+
+  /*container-1*/
+
+  .patas {
+    top: 175px;
+  }
+
+  /*container-2*/
+
+  .foto-left {
+    top: 696px;
+  }
+
+  .polaroid {
+    left: 275px;
+    top: 830px;
+  }
+
+  .hospital {
+    right: 350px;
+  }
+
+  .hpt {
+    left: 690px;
+  }
+
+  .p-1 {
+    left: 650px;
+  }
+
+  .p-2 {
+    left: 645px;
+  }
+
+  .p-3 {
+    left: 640px;
+  }
+
+  .p-4 {
+    left: 635px;
+  }
+
+  /*container-3*/
+
+  .desconto {
+    transform: translateX(-45%);
+  }
+
+  .dog-2 {
+    top: 1465px;
+    z-index: 11;
+  }
+
+  .bolhas {
+    top: 1396px;
+  }
+
+  .experience {
+    top: 1439px;
+  }
+
+  .dog-cat {
+    top: 1437px;
+  }
+
+  /*container-4*/
+
+  .element {
+    top: 1930px;
+    z-index: 10;
+  }
+}
+
+@media (min-width: 1600px) {
+  /*nav*/
+  nav img {
+    margin-left: 30px;
+  }
+
+  .ul {
+    margin-left: 219px;
+    margin-right: 40px;
+  }
+
+  /*container-1*/
+
+  .patas {
+    top: 192px;
+  }
+
+  .dog {
+    top: 190px;
+  }
+
+  .saude {
+    top: 149px;
+  }
+
+  .clinica {
+    top: 189px;
+  }
+
+  .description {
+    top: 315px;
+  }
+
+  .contact {
+    top: 519px;
+  }
+
+  .linha {
+    top: 261px;
+  }
+
+  /*container-2*/
+
+  .foto-left {
+    top: 728px;
+  }
+
+  .polaroid {
+    left: 275px;
+    top: 882px;
+  }
+
+  .hospital {
+    right: 390px;
+    top: 790px;
+  }
+
+  .hpt {
+    left: 760px;
+    top: 664px;
+  }
+
+  .p-1 {
+    left: 690px;
+    top: 890px;
+  }
+
+  .p-2 {
+    left: 685px;
+    top: 1000px;
+  }
+
+  .p-3 {
+    left: 680px;
+    top: 1090px;
+  }
+
+  .p-4 {
+    left: 675px;
+    top: 1180px;
+  }
+
+  /*container-3*/
+
+  .desconto {
+    top: 1630px;
+    transform: translateX(-45%);
+  }
+
+  .dog-2 {
+    top: 1497px;
+    z-index: 11;
+  }
+
+  .bolhas {
+    top: 1429px;
+  }
+
+  .experience {
+    top: 1479px;
+  }
+
+  .dog-cat {
+    top: 1487px;
+  }
+
+  .services {
+    top: 1550px;
+  }
+
+  .list {
+    top: 1620px;
+  }
+
+  .agenda {
+    top: 1810px;
+  }
+
+  /*container-4*/
+
+  .swiper {
+    height: 570px;
+  }
+
+  .element {
+    top: 1961px;
+  }
+
+  .h1-plain {
+    top: 2075px;
+  }
+
+  .plan-1,
+  .plan-2,
+  .plan-3,
+  .plan-4 {
+    margin-top: 79px;
+  }
+
+  .patas-fundo {
+    top: 2199px;
+  }
 }
