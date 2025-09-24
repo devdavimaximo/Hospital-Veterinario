@@ -18,6 +18,10 @@ function Main() {
           <br />
           profissional e amor pelos bichinhos.
         </p>
+
+        <p className="description-mobile">
+          Seja bem-vindo à Maxnay Hospital <br />Veterinário! Aqui, cada detalhe foi <br />pensado para oferecer cuidado, carinho <br />e atenção especial ao seu melhor amigo. <br />Contamos com uma equipe dedicada e <br />apaixonada por animais, pronta para <br />garantir saúde, bem-estar e qualidade <br />de vida em todas as fases. Nosso espaço <br />é acolhedor, seguro e equipado para <br />proporcionar o atendimento que seu pet <br /> merece, unindo experiência profissional <br />e amor pelos bichinhos.
+        </p>
         <button className="contact">
           <a href="#">Contato</a>
         </button>

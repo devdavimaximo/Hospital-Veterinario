@@ -7,7 +7,7 @@ function Header() {
         <nav className="nav flex">
           <Link to="inicio" smooth={true} duration={500}>
             <img
-              className="flex justify-start items-center h-13 pl-12 mt-1"
+              className="flex logo justify-start items-center h-13 pl-12 mt-1"
               src="/logo.png"
               alt="logo"
             />
@@ -43,6 +43,7 @@ function Header() {
               <a href="#">Contato</a>
             </button>
           </div>
+          <div className="hamburguer">☰</div>
         </nav>
       </header>
     </div>

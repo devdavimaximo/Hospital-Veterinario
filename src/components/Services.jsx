@@ -1,7 +1,7 @@
 function Services() {
   return (
     <section>
-      <div>
+      <div className="divservices">
         <img src="/bolhas.png" alt="" className="bolhas" />
         <h1 className="services">Nossos Serviços</h1>
         <ul className="list">

@@ -38,6 +38,21 @@ nav {
   z-index: 129;
 }
 
+.logo {
+  margin-left: -49px;
+  margin-top: -67px;
+  height: 100px;
+}
+
+.hamburguer {
+  color: #083344;
+  font-size: 29px;
+  margin-top: 19px;
+  margin-left: 329px;
+  font-weight: bold;
+  display: none;
+}
+
 nav img {
   cursor: pointer;
 }
@@ -47,14 +62,14 @@ nav img {
   border-radius: 5px;
   padding: 7px 57px 7px 57px;
   margin-right: 15px;
-  margin-top: 13px;
+  margin-top: 15px;
 }
 
 .contato {
   font-size: 19px;
   border-radius: 5px;
   padding: 7px 57px 7px 57px;
-  margin-top: 13px;
+  margin-top: 15px;
 }
 
 button:hover {
@@ -65,9 +80,10 @@ button:hover {
 }
 
 .ul {
-  margin-left: 80px;
+  margin-left: 300px;
   gap: 10px;
   font-size: 18px;
+  margin-top: 4px;
 }
 
 .li-header {
@@ -104,6 +120,10 @@ li:hover {
   position: absolute;
   left: 50px;
   top: 295px;
+}
+
+.description-mobile {
+  display: none;
 }
 
 .contact {
@@ -852,5 +872,109 @@ i:hover {
 
   .patas-fundo {
     top: 2199px;
+  }
+}
+@media (max-width: 480px) {
+  /*gerais*/
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /*nav*/
+
+  .nav ul,
+  .contato,
+  .agende {
+    display: none;
+  }
+
+  .hamburguer {
+    display: block;
+  }
+
+  .logo {
+    margin-left: -69px;
+    margin-top: -60px;
+    height: 50px;
+  }
+
+  /*container-1*/
+
+  .saude {
+    top: 110px;
+    font-size: 23px;
+    left: 25px;
+  }
+
+  .url {
+    display: none;
+  }
+
+  .clinica {
+    font-size: 29px;
+    white-space: nowrap;
+    left: 25px;
+    top: 145px;
+  }
+
+  .linha {
+    top: 190px;
+    left: 25px;
+    color: #083344;
+  }
+
+  .description,
+  .contact {
+    display: none;
+  }
+
+  .description-mobile {
+    display: block;
+    position: absolute;
+    top: 235px;
+    left: 25px;
+    font-size: 15px;
+  }
+
+  .dog {
+    height: 200px;
+    top: 560px;
+  }
+
+  .inferior {
+    top: 690px;
+  }
+
+  .icon-wpp {
+    top: 515px;
+    left: 25px;
+    font-size: 29px;
+  }
+
+  .icon-insta {
+    top: 515px;
+    left: 65px;
+    font-size: 29px;
+  }
+
+  .icon-email {
+    top: 515px;
+    left: 109px;
+  }
+
+  .patas {
+    z-index: -3;
+    height: 300px;
+    top: 469px;
+  }
+
+  .foto-left,
+  .polaroid,
+  .img-right,
+  .hospital,
+  .plan,
+  .divservices {
+    display: none;
   }
 }
