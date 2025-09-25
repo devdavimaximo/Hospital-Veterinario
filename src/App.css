@@ -48,7 +48,7 @@ nav {
   color: #083344;
   font-size: 29px;
   margin-top: 19px;
-  margin-left: 329px;
+  margin-left: 369px;
   font-weight: bold;
   display: none;
 }
@@ -236,6 +236,15 @@ i:hover {
 }
 
 /*container2*/
+.hospital-frente,
+.superior-hpt,
+.p-1-mobile,
+.p-2-mobile,
+.p-3-mobile,
+.p-4-mobile {
+  display: none;
+}
+
 .hospital {
   position: absolute;
   top: 750px;
@@ -903,7 +912,7 @@ i:hover {
 
   .saude {
     top: 110px;
-    font-size: 23px;
+    font-size: 25px;
     left: 25px;
   }
 
@@ -912,7 +921,7 @@ i:hover {
   }
 
   .clinica {
-    font-size: 29px;
+    font-size: 33px;
     white-space: nowrap;
     left: 25px;
     top: 145px;
@@ -934,47 +943,110 @@ i:hover {
     position: absolute;
     top: 235px;
     left: 25px;
-    font-size: 15px;
+    font-size: 17.7px;
   }
 
   .dog {
     height: 200px;
-    top: 560px;
+    top: 619px;
+    left: 110px;
   }
 
   .inferior {
-    top: 690px;
+    display: none;
   }
 
   .icon-wpp {
-    top: 515px;
+    top: 571px;
     left: 25px;
     font-size: 29px;
   }
 
   .icon-insta {
-    top: 515px;
+    top: 571px;
     left: 65px;
     font-size: 29px;
   }
 
   .icon-email {
-    top: 515px;
+    top: 571px;
     left: 109px;
   }
 
   .patas {
     z-index: -3;
     height: 300px;
-    top: 469px;
+    top: 547px;
   }
 
   .foto-left,
   .polaroid,
   .img-right,
-  .hospital,
   .plan,
   .divservices {
     display: none;
+  }
+
+  /*container-2*/
+  .hospital-frente,
+  .superior-hpt {
+    display: block;
+  }
+
+  .hospital {
+    left: 25px;
+    top: 930px;
+  }
+
+  .superior-hpt {
+    position: absolute;
+    top: 847px;
+  }
+
+  .hospital-frente {
+    position: absolute;
+    top: 1450px;
+    height: 217px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+  }
+
+  .p-1,
+  .p-2,
+  .p-3,
+  .p-4 {
+    display: none;
+  }
+
+  .p-1-mobile,
+  .p-2-mobile,
+  .p-3-mobile,
+  .p-4-mobile {
+    display: block;
+    position: absolute;
+    left: 25px;
+    font-size: 11px;
+  }
+
+  .p-1-mobile {
+    top: 1030px;
+  }
+
+  .p-2-mobile {
+    top: 1120px;
+  }
+
+  .p-3-mobile {
+    top: 1210px;
+  }
+
+  .p-4-mobile {
+    top: 1300px;
+  }
+
+  .hpt {
+    top: 803px;
+    left: 100px;
   }
 }
