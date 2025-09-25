@@ -982,9 +982,9 @@ i:hover {
   .foto-left,
   .polaroid,
   .img-right,
-  .plan
+  .plan,
   .footer {
-    display: none;
+    display: none !important;
   }
 
   /*container-2*/
