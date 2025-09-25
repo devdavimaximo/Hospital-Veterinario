@@ -982,8 +982,6 @@ i:hover {
   .foto-left,
   .polaroid,
   .img-right,
-  .plan,
-  .divservices,
   .footer {
     display: none;
   }
@@ -1050,4 +1048,67 @@ i:hover {
     top: 803px;
     left: 100px;
   }
+
+  /*container-3*/
+
+  .inferior {
+    display: block;
+    top: 1570px;
+    height: 200px;
+  }
+
+  .experience {
+    left: 25px;
+    font-size: 17px;
+    top: 1830px;
+  }
+
+  .dog-2 {
+    top: 2290px;
+    height: 300px;
+  }
+
+  .dog-cat {
+    top: 1830px;
+    left: 340px;
+    height: 25px;
+  }
+
+  .agenda {
+    top: 2129px;
+    left: 25px;
+    white-space: nowrap;
+    padding: 5px 20px;
+  }
+
+  .bolhas {
+    top: 2170px;
+    left: 0;
+    height: 300px;
+  }
+
+  .services {
+    top: 1900px;
+    white-space: nowrap;
+    left: 25px;
+    font-size: 39px;
+  }
+
+  .list {
+    top: 1980px;
+    left: 50px;
+    font-size: 13.2px;
+  }
+
+  .desconto {
+    top: 2200px;
+    height: 150px;
+    left: 320px;
+  }
+
+  .inferior-2 {
+    top: 2479px;
+  }
+
+  /*container4*/
 }
