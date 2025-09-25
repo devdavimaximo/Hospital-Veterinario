@@ -983,7 +983,8 @@ i:hover {
   .polaroid,
   .img-right,
   .plan,
-  .divservices {
+  .divservices,
+  .footer {
     display: none;
   }
 
