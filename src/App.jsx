@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Services from "./components/Services";
 import Hospital from "./components/Hospital";
 import Planos from "./components/Planos";
+import PlanosMobile from "./components/PlanosMobile";
 import Footer from "./components/Footer";
 import "./index.css";
 
@@ -15,6 +16,7 @@ function App() {
       <Hospital />
       <Services />
       <Planos />
+      <PlanosMobile />
       <Footer />
     </div>
   );
