@@ -5,6 +5,7 @@ import Hospital from "./components/Hospital";
 import Planos from "./components/Planos";
 import PlanosMobile from "./components/PlanosMobile";
 import Footer from "./components/Footer";
+import FooterMobile from "./components/FooterMobile";
 import "./index.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Planos />
       <PlanosMobile />
       <Footer />
+      <FooterMobile />
     </div>
   );
 }
