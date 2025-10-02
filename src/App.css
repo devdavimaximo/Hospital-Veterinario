@@ -1237,7 +1237,7 @@ i:hover {
   .namemob {
     position: absolute;
     top: 175px;
-    left: 40px;
+    right: 43px;
     padding: 7px 99px 7px 7px;
     font-size: 19px;
     border: 1px solid #f5f5f5;
@@ -1250,7 +1250,7 @@ i:hover {
     font-size: 19px;
     border: 1px solid #f5f5f5;
     border-radius: 5px;
-    left: 40px;
+    right: 43px;
     padding: 7px 99px 7px 7px;
   }
 
